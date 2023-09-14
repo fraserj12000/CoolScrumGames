@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\School\\source\\repos\\CoolScrumGames\\CoolScrumGames\\CoolScrumGames.csproj": {}
+    "C:\\Users\\School\\Source\\Repos\\fraserj12000\\CoolScrumGames\\CoolScrumGames\\CoolScrumGames.csproj": {}
   },
   "projects": {
-    "C:\\Users\\School\\source\\repos\\CoolScrumGames\\CoolScrumGames\\CoolScrumGames.csproj": {
+    "C:\\Users\\School\\Source\\Repos\\fraserj12000\\CoolScrumGames\\CoolScrumGames\\CoolScrumGames.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\School\\source\\repos\\CoolScrumGames\\CoolScrumGames\\CoolScrumGames.csproj",
+        "projectUniqueName": "C:\\Users\\School\\Source\\Repos\\fraserj12000\\CoolScrumGames\\CoolScrumGames\\CoolScrumGames.csproj",
         "projectName": "CoolScrumGames",
-        "projectPath": "C:\\Users\\School\\source\\repos\\CoolScrumGames\\CoolScrumGames\\CoolScrumGames.csproj",
+        "projectPath": "C:\\Users\\School\\Source\\Repos\\fraserj12000\\CoolScrumGames\\CoolScrumGames\\CoolScrumGames.csproj",
         "packagesPath": "C:\\Users\\School\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\School\\source\\repos\\CoolScrumGames\\CoolScrumGames\\obj\\",
+        "outputPath": "C:\\Users\\School\\Source\\Repos\\fraserj12000\\CoolScrumGames\\CoolScrumGames\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\School\\AppData\\Roaming\\NuGet\\NuGet.Config",
