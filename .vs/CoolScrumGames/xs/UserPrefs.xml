@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{CC8373C4-091E-45F4-A28B-13A76DB235C8}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.CoolScrumGames PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CoolScrumGames/Pages/Index.cshtml">
+    <Files>
+      <File FileName="CoolScrumGames/Pages/Index.cshtml.cs" Line="1" Column="1" />
+      <File FileName="CoolScrumGames/Pages/Index.cshtml" Line="11" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CoolScrumGames" expanded="True">
+            <Node name="CoolScrumGames" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
