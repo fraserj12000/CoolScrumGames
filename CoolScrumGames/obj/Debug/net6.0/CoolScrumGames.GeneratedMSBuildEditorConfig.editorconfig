@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/gabrielvramos/Documents/ETSU/Fall 2023/CSCI-4350/CoolScrumGames/CoolScrumGames
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/gabrielvramos/Documents/ETSU/Fall 2023/CSCI-4350/CoolScrumGames/CoolScrumGames/Pages/AboutUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWJvdXRVcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/gabrielvramos/Documents/ETSU/Fall 2023/CSCI-4350/CoolScrumGames/CoolScrumGames/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
