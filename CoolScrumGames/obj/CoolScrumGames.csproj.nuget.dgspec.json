@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\megan\\Documents\\GitHub\\CoolScrumGames\\CoolScrumGames\\CoolScrumGames.csproj": {}
+    "C:\\Users\\Jake\\Source\\Repos\\CoolScrumGames_egglestonj\\CoolScrumGames\\CoolScrumGames.csproj": {}
   },
   "projects": {
-    "C:\\Users\\megan\\Documents\\GitHub\\CoolScrumGames\\CoolScrumGames\\CoolScrumGames.csproj": {
+    "C:\\Users\\Jake\\Source\\Repos\\CoolScrumGames_egglestonj\\CoolScrumGames\\CoolScrumGames.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\megan\\Documents\\GitHub\\CoolScrumGames\\CoolScrumGames\\CoolScrumGames.csproj",
+        "projectUniqueName": "C:\\Users\\Jake\\Source\\Repos\\CoolScrumGames_egglestonj\\CoolScrumGames\\CoolScrumGames.csproj",
         "projectName": "CoolScrumGames",
-        "projectPath": "C:\\Users\\megan\\Documents\\GitHub\\CoolScrumGames\\CoolScrumGames\\CoolScrumGames.csproj",
-        "packagesPath": "C:\\Users\\megan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\megan\\Documents\\GitHub\\CoolScrumGames\\CoolScrumGames\\obj\\",
+        "projectPath": "C:\\Users\\Jake\\Source\\Repos\\CoolScrumGames_egglestonj\\CoolScrumGames\\CoolScrumGames.csproj",
+        "packagesPath": "C:\\Users\\Jake\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jake\\Source\\Repos\\CoolScrumGames_egglestonj\\CoolScrumGames\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\megan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jake\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.17.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
