@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "8IWvzD5u0mg0iFx73Tli3aVp1Emdqs7kygHpx/uYV/w/SfQqTa9gXbZZPqVXAyPydGYSeudTdfb1NzWkE5wEmw==",
+  "dgSpecHash": "wruYhHgZUtUly8EBfx3EVui0i3Zlaq4iMS+TlySp7nb2SkZVRKjwvThEi/n7sOpGZaDd0iEUOnqHm0m85egKOg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\megan\\Documents\\GitHub\\CoolScrumGames\\CoolScrumGames\\CoolScrumGames.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\bkcal\\Source\\Repos\\CoolScrumGames\\CoolScrumGames\\CoolScrumGames.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bkcal\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.2\\microsoft.visualstudio.azure.containers.tools.targets.1.17.2.nupkg.sha512"
+  ],
   "logs": []
 }
