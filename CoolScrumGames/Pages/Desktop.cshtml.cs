@@ -7,6 +7,7 @@ namespace CoolScrumGames.Pages
     {
         public void OnGet()
         {
+
         }
     }
 }
