@@ -1,25 +1,30 @@
 ﻿.main-container {
-    display: inline-flex;
+    display: flex;
+    justify-content: space-between;
     width: 100%;
-    text-align: center;
-    align-content: center;
+    padding: 50px;
    
 }
 
-    .main-container div {
-        height: 350px;
-        padding: 50px;
-        margin: 0 auto;
-        align-content: center;
-    }
+div game-container {
+    height: 300px;
+    padding: 50px;
+    margin: 0 auto;
+    align-content: center;
+    text-align: center;
+}
 
 div h3 {
     font-size: 30px;
     background-color: #041E41;
     padding: 20px;
     margin: 0 auto;
-    border-bottom: 5px solid;
-    border-bottom-color: #FFC72C;
+    border-bottom: 3px solid;
+    border-bottom-color: #5da8bb;
     word-wrap: break-word;
     max-width: 200px;
 }
+    p
+    {
+        text-align: center;
+    }
