@@ -9,6 +9,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\images\game_images\AsteroidGame\asteroid.jpg" />
+    <None Include="wwwroot\images\game_images\AsteroidGame\spaceship.png" />
+    <None Include="wwwroot\js\AsteroidGame\Presentation.js" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.2" />
   </ItemGroup>
 
