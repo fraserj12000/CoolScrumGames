@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "203UU2uZYFhpDqajyushA7grGbWD05WG63nYGRSEUHc=",
+  "Hash": "52P68a6aOzGha1YJ1ULHwe45qLSliypkxBbwAsjnJyg=",
   "Source": "CoolScrumGames",
   "BasePath": "_content/CoolScrumGames",
   "Mode": "Default",
@@ -1222,6 +1222,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\School\\source\\repos\\fraserj12000\\CoolScrumGames\\CoolScrumGames\\wwwroot\\lib\\Rocket.jpg",
+      "SourceId": "CoolScrumGames",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\School\\source\\repos\\fraserj12000\\CoolScrumGames\\CoolScrumGames\\wwwroot\\",
+      "BasePath": "_content/CoolScrumGames",
+      "RelativePath": "lib/Rocket.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\Rocket.jpg"
     }
   ]
 }
