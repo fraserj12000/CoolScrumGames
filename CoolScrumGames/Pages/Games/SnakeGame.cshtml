@@ -1,0 +1,23 @@
+﻿@page
+@{
+    ViewData["Title"] = "Snake Game"; //Change this to the name of the game. It's the name that shows on the tab at the top.
+
+}
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<script src="~/js/SnakeGame/Snake.js"></script> @*Change the src destination to the game's javascript file.*@
+
+<body style="background-color: #ffc72c;">
+
+    <div id="gameCanvas" style="border:1px solid #000000; background-color: black; width:900px; height:800px">
+        @*This game canvas is the game window that the game puts its own
+            canvas, iframe, or whatever else it uses. It'll load to this canvas instead of the full window*@
+    </div>
+    <button onclick="startSnakeGame(document.getElementById('gameCanvas'))">
+        @*In the onclick, reference the method in the game's JS that actually initializes the gameplay.
+            The parameter "document.getElementByID('gameCanvas')) is the universal canvas that the game will load its graphics to.*@
+        Play Game
+    </button>
+
+</body>
