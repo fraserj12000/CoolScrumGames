@@ -18,6 +18,7 @@ namespace TextMicroservice
         public void ConfigureServices(IServiceCollection services)
         {
             // Configure services, such as dependency injection, here.
+
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -34,5 +35,7 @@ namespace TextMicroservice
 
             // Configure middleware and request pipeline here.
         }
+
+
     }
 }

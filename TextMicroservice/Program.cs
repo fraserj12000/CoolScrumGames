@@ -9,6 +9,7 @@ namespace TextMicroservice
         {
             // creates a host, builds it, and runs it
             CreateHostBuilder(args).Build().Run();
+
         }
 
         //responsible for configuring the host and setting up the web server
