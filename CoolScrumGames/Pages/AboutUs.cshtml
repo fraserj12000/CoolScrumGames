@@ -6,7 +6,19 @@
 
 
 <body style="background-color: #ffc72c;">
-    <div class="main-container">
+   <!-- <div class="main-container">
         <p> Hello :) How is it going?</p>
-    </div>
+    </div> -->
+    <div id="main-container"></div>s
+
+    <script>
+        fetch('http://localhost:7072/api/text')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('main-container').textContent = data.Text;
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+    </script>
 </body>

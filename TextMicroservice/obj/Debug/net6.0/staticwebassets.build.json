@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "wTu6lhh9CkB4SkBrzaynLETWPpgXW3Q97auDX0ZrZNE=",
+  "Source": "TextMicroservice",
+  "BasePath": "_content/TextMicroservice",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
