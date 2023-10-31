@@ -1,6 +1,7 @@
 name: SeleniumTest
 on:
-  workflow_dispatch:  
+  pull_request:
+    types: [opened, synchronize]
 jobs:
   push_to_registry:
     name: Push Docker image to Docker Hub
