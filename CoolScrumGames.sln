@@ -5,7 +5,7 @@ VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoolScrumGames", "CoolScrumGames\CoolScrumGames.csproj", "{CC8373C4-091E-45F4-A28B-13A76DB235C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextMicroservice", "TextMicroservice\TextMicroservice.csproj", "{F09A7253-D8CB-49F7-AA4A-342660524F63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextMicroservice", "..\..\TestText\TestText\TextMicroservice.csproj", "{94476721-DDD0-4E01-B018-9752C57603CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{CC8373C4-091E-45F4-A28B-13A76DB235C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC8373C4-091E-45F4-A28B-13A76DB235C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC8373C4-091E-45F4-A28B-13A76DB235C8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F09A7253-D8CB-49F7-AA4A-342660524F63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F09A7253-D8CB-49F7-AA4A-342660524F63}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F09A7253-D8CB-49F7-AA4A-342660524F63}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F09A7253-D8CB-49F7-AA4A-342660524F63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94476721-DDD0-4E01-B018-9752C57603CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94476721-DDD0-4E01-B018-9752C57603CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94476721-DDD0-4E01-B018-9752C57603CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94476721-DDD0-4E01-B018-9752C57603CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
