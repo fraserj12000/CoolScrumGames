@@ -29,6 +29,22 @@
       "PackagePath": "staticwebassets\\images\\etsu_gold.png"
     },
     {
+      "Id": "C:\\Users\\bkcal\\source\\repos\\CoolScrumGames\\CoolScrumGames\\wwwroot\\images\\game_images\\AsteroidGame\\asteroid.jpg",
+      "PackagePath": "staticwebassets\\images\\game_images\\AsteroidGame\\asteroid.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bkcal\\source\\repos\\CoolScrumGames\\CoolScrumGames\\wwwroot\\images\\game_images\\AsteroidGame\\spaceship.png",
+      "PackagePath": "staticwebassets\\images\\game_images\\AsteroidGame\\spaceship.png"
+    },
+    {
+      "Id": "C:\\Users\\bkcal\\source\\repos\\CoolScrumGames\\CoolScrumGames\\wwwroot\\js\\AsteroidGame\\Presentation.js",
+      "PackagePath": "staticwebassets\\js\\AsteroidGame\\Presentation.js"
+    },
+    {
+      "Id": "C:\\Users\\bkcal\\source\\repos\\CoolScrumGames\\CoolScrumGames\\wwwroot\\js\\SnakeGame\\Snake.js",
+      "PackagePath": "staticwebassets\\js\\SnakeGame\\Snake.js"
+    },
+    {
       "Id": "C:\\Users\\bkcal\\source\\repos\\CoolScrumGames\\CoolScrumGames\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
@@ -271,6 +287,10 @@
     {
       "Id": "C:\\Users\\bkcal\\source\\repos\\CoolScrumGames\\CoolScrumGames\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\bkcal\\source\\repos\\CoolScrumGames\\CoolScrumGames\\wwwroot\\lib\\snake.jpg",
+      "PackagePath": "staticwebassets\\lib\\snake.jpg"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.CoolScrumGames.Microsoft.AspNetCore.StaticWebAssets.props",
