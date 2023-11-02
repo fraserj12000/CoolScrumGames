@@ -4,29 +4,21 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <img src="~/images/diamond.png" style="max-width: 300px; max-height: 300px;"/>
-    @*<p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>*@
-
-    @*<div class="row">
-        <div class="col-md-3">
-
-        </div>
-        </div>*@
-</div>
 
 
-<link href="/css/MainPageStyleSheet.css" rel="stylesheet" />
-<body style="background-color: #ffc72c;">
+<link href="/css/MainPageStyleSheet.css" rel="stylesheet" !important/>
+<body style="background-color: #f4f1e2;">
 
 @* 
 The "main-container" is the ROW of containers for the games. The "game-container" is each individual game icon inside of the row, or the columns. To add more ROWS, just copy + paste
 the div class main container and all of its contents. To add more columns, just copy the individual game-container and its contents. *@
 
+
+
 <div class="main-container"> 
     <div class="game-container">
             <h3>             @* This link is for public domain game 2048. Will remove later when game is implemented in window.*@
-                <button onclick="window.location.href='Games/AsteroidGame'" target="_blank">
+                <button class="rounded-button" onclick="window.location.href='Games/AsteroidGame'" target="_blank">
                     <img src="/lib/Rocket.jpg" alt="Rocket" style="width:128px;height:128px;">
                 </button>
             </h3><p>Jake's Game</p>
@@ -34,7 +26,7 @@ the div class main container and all of its contents. To add more columns, just 
 
      <div class="game-container">
             <h3>
-                <button onclick="window.location.href='Games/SnakeGame'" target="_blank">
+                <button class="rounded-button" onclick="window.location.href='Games/SnakeGame'" target="_blank">
                     <img src="/lib/snake.jpg" alt="Snake" style="width:128px;height:128px;">
                 </button>
             </h3><p>Snake Game</p>
@@ -42,7 +34,7 @@ the div class main container and all of its contents. To add more columns, just 
 
      <div class="game-container">
             <h3>
-                <button onclick="window.location.href='https://play2048.co/'" target="_blank">
+                <button class="rounded-button" onclick="window.location.href='https://play2048.co/'" target="_blank">
                     <img src="/lib/Rocket.jpg" alt="Rocket" style="width:128px;height:128px;">
                 </button>
             </h3><p>Jake's Game</p>
@@ -50,7 +42,7 @@ the div class main container and all of its contents. To add more columns, just 
 
      <div class="game-container">
             <h3>
-                <button onclick="window.location.href='https://play2048.co/'" target="_blank">
+                <button class="rounded-button" onclick="window.location.href='https://play2048.co/'" target="_blank">
                     <img src="/lib/Rocket.jpg" alt="Rocket" style="width:128px;height:128px;">
                 </button>
             </h3><p>Jake's Game</p>
@@ -60,7 +52,7 @@ the div class main container and all of its contents. To add more columns, just 
 <div class="main-container">
         <div class="game-container">
             <h3>
-                <button onclick="window.location.href='https://play2048.co/'" target="_blank">
+                <button class="rounded-button" onclick="window.location.href='https://play2048.co/'" target="_blank">
                     <img src="/lib/Rocket.jpg" alt="Rocket" style="width:128px;height:128px;">
                 </button>
             </h3><p>Jake's Game</p>
@@ -68,7 +60,7 @@ the div class main container and all of its contents. To add more columns, just 
 
         <div class="game-container">
             <h3>
-                <button onclick="window.location.href='https://play2048.co/'" target="_blank">
+                <button class="rounded-button" onclick="window.location.href='https://play2048.co/'" target="_blank">
                     <img src="/lib/Rocket.jpg" alt="Rocket" style="width:128px;height:128px;">
                 </button>
             </h3><p>Jake's Game</p>
@@ -76,7 +68,7 @@ the div class main container and all of its contents. To add more columns, just 
 
         <div class="game-container">
             <h3>
-                <button onclick="window.location.href='https://play2048.co/'" target="_blank">
+                <button class="rounded-button" onclick="window.location.href='https://play2048.co/'" target="_blank">
                     <img src="/lib/Rocket.jpg" alt="Rocket" style="width:128px;height:128px;">
                 </button>
             </h3><p>Jake's Game</p>
@@ -84,7 +76,7 @@ the div class main container and all of its contents. To add more columns, just 
 
         <div class="game-container">
             <h3>
-                <button onclick="window.location.href='https://play2048.co/'" target="_blank">
+                <button class="rounded-button" onclick="window.location.href='https://play2048.co/'" target="_blank">
                     <img src="/lib/Rocket.jpg" alt="Rocket" style="width:128px;height:128px;">
                 </button>
             </h3><p>Jake's Game</p>
@@ -94,3 +86,5 @@ the div class main container and all of its contents. To add more columns, just 
 
 
 </body>
+
+

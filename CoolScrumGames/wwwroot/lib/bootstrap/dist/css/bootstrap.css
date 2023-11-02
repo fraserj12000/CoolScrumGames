@@ -7689,7 +7689,11 @@ textarea.form-control-lg {
 
 .text-gold {
     --bs-text-opacity: 1;
-    color: rgb(255, 199, 44) !important;
+    color: rgb(249, 215, 124) !important;
+}
+
+.new-color {
+    color: #F9D77C;
 }
 
 .text-black {

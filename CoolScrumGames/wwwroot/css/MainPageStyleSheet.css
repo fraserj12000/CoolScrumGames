@@ -19,6 +19,7 @@ div h3 {
     background-color: #041E41;
     padding: 20px;
     margin: 0 auto;
+    border-radius: 20px !important;
     border-bottom: 3px solid;
     border-bottom-color: #5da8bb;
     word-wrap: break-word;
@@ -28,3 +29,12 @@ div h3 {
     {
         text-align: center;
     }
+
+.rounded-button {
+    border-radius: 20px; /* You can adjust the value to control the roundness of the edges */
+}
+
+img {
+    border-radius: 20px;
+}
+
