@@ -41,7 +41,7 @@ class Test(unittest.TestCase):
         self.assertEqual(self.navitems[3].text, "Privacy")
     
     def test_checkJakesGame(self):
-        self.jakesgame = self.driver.find_element(By.XPATH, "/html/body/div/main/div[2]/div[1]/h3/button")
+        self.jakesgame = self.driver.find_element(By.XPATH, "/html/body/div/main/div[1]/div[1]/h3/button")
         self.jakesgame.click()
         self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
         time.sleep(2)
@@ -52,7 +52,7 @@ class Test(unittest.TestCase):
         assert self.canvas[0] is not None
 
     def test_checkSnakeGame(self):
-        self.snakegame = self.driver.find_element(By.XPATH, "/html/body/div/main/div[2]/div[2]/h3/button")
+        self.snakegame = self.driver.find_element(By.XPATH, "/html/body/div/main/div[1]/div[2]/h3/button")
         self.snakegame.click()
         self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
         time.sleep(2)
