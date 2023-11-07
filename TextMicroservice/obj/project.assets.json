@@ -213,11 +213,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\School\\source\\repos\\fraserj12000\\CoolScrumGames\\TextMicroservice\\TextMicroservice.csproj",
-      "projectName": "TextMicroservice",
-      "projectPath": "C:\\Users\\School\\source\\repos\\fraserj12000\\CoolScrumGames\\TextMicroservice\\TextMicroservice.csproj",
+      "projectUniqueName": "C:\\Users\\School\\Pictures\\TextMicroservice\\TextMicroservice\\TextMicroservice1.csproj",
+      "projectName": "TextMicroservice1",
+      "projectPath": "C:\\Users\\School\\Pictures\\TextMicroservice\\TextMicroservice\\TextMicroservice1.csproj",
       "packagesPath": "C:\\Users\\School\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\School\\source\\repos\\fraserj12000\\CoolScrumGames\\TextMicroservice\\obj\\",
+      "outputPath": "C:\\Users\\School\\Pictures\\TextMicroservice\\TextMicroservice\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\School\\AppData\\Roaming\\NuGet\\NuGet.Config",

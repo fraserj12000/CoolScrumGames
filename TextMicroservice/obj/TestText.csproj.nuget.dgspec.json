@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\School\\source\\repos\\TestText\\TestText\\TextMicroservice.csproj": {}
+    "C:\\Users\\School\\source\\repos\\TestText\\TestText\\TestText.csproj": {}
   },
   "projects": {
-    "C:\\Users\\School\\source\\repos\\TestText\\TestText\\TextMicroservice.csproj": {
+    "C:\\Users\\School\\source\\repos\\TestText\\TestText\\TestText.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\School\\source\\repos\\TestText\\TestText\\TextMicroservice.csproj",
-        "projectName": "TextMicroservice",
-        "projectPath": "C:\\Users\\School\\source\\repos\\TestText\\TestText\\TextMicroservice.csproj",
+        "projectUniqueName": "C:\\Users\\School\\source\\repos\\TestText\\TestText\\TestText.csproj",
+        "projectName": "TestText",
+        "projectPath": "C:\\Users\\School\\source\\repos\\TestText\\TestText\\TestText.csproj",
         "packagesPath": "C:\\Users\\School\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\School\\source\\repos\\TestText\\TestText\\obj\\",
         "projectStyle": "PackageReference",
