@@ -6,12 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "TextMicroservice/1.0.0": {
+      "TextMicroservice1/1.0.0": {
         "dependencies": {
           "Swashbuckle.AspNetCore": "6.2.3"
         },
         "runtime": {
-          "TextMicroservice.dll": {}
+          "TextMicroservice1.dll": {}
         }
       },
       "Microsoft.Extensions.ApiDescription.Server/3.0.0": {},
@@ -64,7 +64,7 @@
     }
   },
   "libraries": {
-    "TextMicroservice/1.0.0": {
+    "TextMicroservice1/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
