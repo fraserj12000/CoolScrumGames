@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FDjPVMUngBevS8ayrSH1xK9EzR1Mqgb3oErkhjFdvy0=",
+  "Hash": "hOPS+PyCIzEr+b33xYIz7tTU9hp3Am2AVqxEfJ6iFwU=",
   "Source": "CoolScrumGames",
   "BasePath": "_content/CoolScrumGames",
   "Mode": "Default",
@@ -102,12 +102,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\School\\source\\repos\\fraserj12000\\CoolScrumGames\\CoolScrumGames\\wwwroot\\images\\bucstop.png",
+      "Identity": "C:\\Users\\School\\source\\repos\\fraserj12000\\CoolScrumGames\\CoolScrumGames\\wwwroot\\images\\bucstopwologo.png",
       "SourceId": "CoolScrumGames",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\School\\source\\repos\\fraserj12000\\CoolScrumGames\\CoolScrumGames\\wwwroot\\",
       "BasePath": "_content/CoolScrumGames",
-      "RelativePath": "images/bucstop.png",
+      "RelativePath": "images/bucstopwologo.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -116,7 +116,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\bucstop.png"
+      "OriginalItemSpec": "wwwroot\\images\\bucstopwologo.png"
     },
     {
       "Identity": "C:\\Users\\School\\source\\repos\\fraserj12000\\CoolScrumGames\\CoolScrumGames\\wwwroot\\images\\diamond.png",
