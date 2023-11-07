@@ -17,7 +17,7 @@
                 <label asp-for="Login.Email"></label>
             </div>
             <div class="col-5">
-                <input type="email" asp-for="Login.Email" class="form-control" name="toEmail" required/>
+                <input type="email" asp-for="Login.Email" class="form-control" name="toEmail" pattern=".*@@etsu\.edu$" required/>
             </div>
             <span class="text-danger" asp-validation-for="Login.Email"></span>
         </div>
