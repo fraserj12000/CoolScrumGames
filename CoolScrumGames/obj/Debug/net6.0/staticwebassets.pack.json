@@ -241,6 +241,10 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
+      "Id": "C:\\Users\\bkcal\\source\\repos\\CoolScrumGames\\CoolScrumGames\\wwwroot\\lib\\chicago.jpg",
+      "PackagePath": "staticwebassets\\lib\\chicago.jpg"
+    },
+    {
       "Id": "C:\\Users\\bkcal\\source\\repos\\CoolScrumGames\\CoolScrumGames\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
@@ -287,6 +291,14 @@
     {
       "Id": "C:\\Users\\bkcal\\source\\repos\\CoolScrumGames\\CoolScrumGames\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\bkcal\\source\\repos\\CoolScrumGames\\CoolScrumGames\\wwwroot\\lib\\la.jpg",
+      "PackagePath": "staticwebassets\\lib\\la.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bkcal\\source\\repos\\CoolScrumGames\\CoolScrumGames\\wwwroot\\lib\\ny.jpg",
+      "PackagePath": "staticwebassets\\lib\\ny.jpg"
     },
     {
       "Id": "C:\\Users\\bkcal\\source\\repos\\CoolScrumGames\\CoolScrumGames\\wwwroot\\lib\\snake.jpg",
