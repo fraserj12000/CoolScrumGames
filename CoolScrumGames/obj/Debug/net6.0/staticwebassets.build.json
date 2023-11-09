@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "theCWWa2J5Iei1hEQ400ntJmPGbX2178ZyKBbF1/5mc=",
+  "Hash": "lI/8IW34JYdjy4d4cobeocmRT7n4rin0rQYxxjIJRn8=",
   "Source": "CoolScrumGames",
   "BasePath": "_content/CoolScrumGames",
   "Mode": "Default",
@@ -1020,6 +1020,23 @@
       "OriginalItemSpec": "wwwroot\\lib\\BucStopLogo.png"
     },
     {
+      "Identity": "C:\\Users\\bkcal\\source\\repos\\CoolScrumGames\\CoolScrumGames\\wwwroot\\lib\\chicago.jpg",
+      "SourceId": "CoolScrumGames",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\bkcal\\source\\repos\\CoolScrumGames\\CoolScrumGames\\wwwroot\\",
+      "BasePath": "_content/CoolScrumGames",
+      "RelativePath": "lib/chicago.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\chicago.jpg"
+    },
+    {
       "Identity": "C:\\Users\\bkcal\\source\\repos\\CoolScrumGames\\CoolScrumGames\\wwwroot\\lib\\HelloKitty.png",
       "SourceId": "CoolScrumGames",
       "SourceType": "Discovered",
@@ -1239,6 +1256,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\bkcal\\source\\repos\\CoolScrumGames\\CoolScrumGames\\wwwroot\\lib\\la.jpg",
+      "SourceId": "CoolScrumGames",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\bkcal\\source\\repos\\CoolScrumGames\\CoolScrumGames\\wwwroot\\",
+      "BasePath": "_content/CoolScrumGames",
+      "RelativePath": "lib/la.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\la.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\bkcal\\source\\repos\\CoolScrumGames\\CoolScrumGames\\wwwroot\\lib\\ny.jpg",
+      "SourceId": "CoolScrumGames",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\bkcal\\source\\repos\\CoolScrumGames\\CoolScrumGames\\wwwroot\\",
+      "BasePath": "_content/CoolScrumGames",
+      "RelativePath": "lib/ny.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\ny.jpg"
     },
     {
       "Identity": "C:\\Users\\bkcal\\source\\repos\\CoolScrumGames\\CoolScrumGames\\wwwroot\\lib\\Rocket.jpg",
