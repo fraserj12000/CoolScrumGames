@@ -2,9 +2,9 @@ name: Microservice Docker Image CI
 
 on:
   push:
-    branches: [ "Microservice" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "Microservice" ]
+    branches: [ "main" ]
 
 jobs:
 
