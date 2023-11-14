@@ -4,4 +4,6 @@
 *.v2
 .vs/CoolScrumGames/v17/.suo
 .CoolScrumGames/obj*
+.CoolScrumGames/.vs*
 .TextMicroservice/obj*
+.TextMicroservice/.vs*
