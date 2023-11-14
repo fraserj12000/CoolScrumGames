@@ -3,3 +3,5 @@
 .vs/CoolScrumGames/v17/.suo
 *.v2
 .vs/CoolScrumGames/v17/.suo
+.CoolScrumGames/obj*
+.TextMicroservice/obj*

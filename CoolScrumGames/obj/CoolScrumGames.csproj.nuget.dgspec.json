@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jake\\Documents\\GitHub\\CoolScrumGames_Jake\\CoolScrumGames\\CoolScrumGames.csproj": {}
+    "C:\\Users\\Jake\\Documents\\CoolScrumGames_Fork\\CoolScrumGames\\CoolScrumGames.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jake\\Documents\\GitHub\\CoolScrumGames_Jake\\CoolScrumGames\\CoolScrumGames.csproj": {
+    "C:\\Users\\Jake\\Documents\\CoolScrumGames_Fork\\CoolScrumGames\\CoolScrumGames.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jake\\Documents\\GitHub\\CoolScrumGames_Jake\\CoolScrumGames\\CoolScrumGames.csproj",
+        "projectUniqueName": "C:\\Users\\Jake\\Documents\\CoolScrumGames_Fork\\CoolScrumGames\\CoolScrumGames.csproj",
         "projectName": "CoolScrumGames",
-        "projectPath": "C:\\Users\\Jake\\Documents\\GitHub\\CoolScrumGames_Jake\\CoolScrumGames\\CoolScrumGames.csproj",
+        "projectPath": "C:\\Users\\Jake\\Documents\\CoolScrumGames_Fork\\CoolScrumGames\\CoolScrumGames.csproj",
         "packagesPath": "C:\\Users\\Jake\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jake\\Documents\\GitHub\\CoolScrumGames_Jake\\CoolScrumGames\\obj\\",
+        "outputPath": "C:\\Users\\Jake\\Documents\\CoolScrumGames_Fork\\CoolScrumGames\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jake\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -64,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

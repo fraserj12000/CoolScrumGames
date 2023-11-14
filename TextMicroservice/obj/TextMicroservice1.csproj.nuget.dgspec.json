@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jake\\Documents\\GitHub\\CoolScrumGames_Jake\\TextMicroservice\\TextMicroservice1.csproj": {}
+    "C:\\Users\\Jake\\Documents\\CoolScrumGames_Fork\\TextMicroservice\\TextMicroservice1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jake\\Documents\\GitHub\\CoolScrumGames_Jake\\TextMicroservice\\TextMicroservice1.csproj": {
+    "C:\\Users\\Jake\\Documents\\CoolScrumGames_Fork\\TextMicroservice\\TextMicroservice1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jake\\Documents\\GitHub\\CoolScrumGames_Jake\\TextMicroservice\\TextMicroservice1.csproj",
+        "projectUniqueName": "C:\\Users\\Jake\\Documents\\CoolScrumGames_Fork\\TextMicroservice\\TextMicroservice1.csproj",
         "projectName": "TextMicroservice1",
-        "projectPath": "C:\\Users\\Jake\\Documents\\GitHub\\CoolScrumGames_Jake\\TextMicroservice\\TextMicroservice1.csproj",
+        "projectPath": "C:\\Users\\Jake\\Documents\\CoolScrumGames_Fork\\TextMicroservice\\TextMicroservice1.csproj",
         "packagesPath": "C:\\Users\\Jake\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jake\\Documents\\GitHub\\CoolScrumGames_Jake\\TextMicroservice\\obj\\",
+        "outputPath": "C:\\Users\\Jake\\Documents\\CoolScrumGames_Fork\\TextMicroservice\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jake\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -68,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
