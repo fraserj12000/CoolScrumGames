@@ -16,6 +16,13 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+// Set the default file
+app.UseDefaultFiles(new DefaultFilesOptions
+{
+    FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "Pages")),
+    RequestPath = "/Account/Login.cshtml", // Specify the path where the default file should be served
+});
+
 app.UseStaticFiles();
 
 app.UseRouting();
