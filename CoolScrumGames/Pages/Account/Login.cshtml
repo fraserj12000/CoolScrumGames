@@ -1,0 +1,46 @@
+﻿@page
+@model CoolScrumGames.Pages.Account.LoginModel
+@{
+}
+
+
+<link href="/css/MainPageStyleSheet.css" rel="stylesheet" !important />
+
+<br />
+<br />
+<br />
+
+
+<div class="banner" style="text-align: center">
+    <img src="/images/diamond.png" alt="BucStop" style="width: 300px; height: 300px" />
+    <div class="banner-text" style="text-align: center">
+    </div>
+</div>
+
+<div class="text-center">
+    <h2 style="color: #00053e">Welcome to BucStop</h2>
+    <p style="color: #00053e">Play games made by ETSU students, for ETSU students!</p>
+</div>
+
+<div class="row justify-content-center">
+
+
+    <div class="col-4">
+        <section>
+            <form method="post">
+                <hr />
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <h4 style="text-align:center; color: #00053e">Enter an ETSU Email</h4>
+                <div class="form-floating">
+                    <input type="email" name="toEmail" class="form-control" aria-required="true" id="toEmail" pattern=".*@@etsu\.edu$" required />
+                    <label asp-for="Login.Email" class="form-label"></label>
+                    <span asp-validation-for="Login.Email" class="text-danger"></span>
+                </div>
+                <br />
+                <div>
+                    <button id="login-submit" type="submit" class="w-100 btn btn-lg btn-primary" style="background-color: #ffc72c; border-color: #ffc72c">Send Access Code</button>
+                </div>
+
+            </form>
+        </section>
+    </div>

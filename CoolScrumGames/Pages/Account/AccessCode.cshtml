@@ -1,0 +1,47 @@
+﻿@page
+@model CoolScrumGames.Pages.Account.AccessCodeModel
+@{
+}
+
+<link href="/css/MainPageStyleSheet.css" rel="stylesheet" !important />
+
+<br />
+<br />
+<br />
+
+
+<div class="banner" style="text-align: center">
+    <img src="/images/diamond.png" alt="BucStop" style="width: 300px; height: 300px" />
+    <div class="banner-text" style="text-align: center">
+    </div>
+</div>
+
+@{
+    if(AccessCodeModel.Validated > 0)
+    {
+        <p style="color: red">You have entered an invalid Access Code <br /> You have @AccessCodeModel.Attempts attempts left</p>
+    }
+}
+
+<div class="row justify-content-center">
+
+
+    <div class="col-4">
+        <section>
+            <form method="post">
+                <hr />
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <h4 style="text-align:center; color: #00053e">Enter an Access Code</h4>
+                <div class="form-floating">
+                    <input type="text" name="accessCode" class="form-control" aria-required="true" id="accessCode" required />
+                    <label class="form-label"></label>
+                    <span class="text-danger"></span>
+                </div>
+                <br />
+                <div>
+                    <button id="login-submit" type="submit" class="w-100 btn btn-lg btn-primary" style="background-color: #ffc72c; border-color: #ffc72c">Submit</button>
+                </div>
+
+            </form>
+        </section>
+    </div>
