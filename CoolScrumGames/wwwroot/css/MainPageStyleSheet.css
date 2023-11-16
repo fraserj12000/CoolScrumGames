@@ -61,3 +61,16 @@ img {
     border-radius: 20px;
 }
 
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* rgba values include red, green, blue, and alpha (transparency) */
+    color: #fff; /* Text color for better contrast */
+    padding: 10px; /* Adjust padding as needed */
+    border-radius: 50px; /* Optional: Add border-radius for rounded corners */
+    height: 100px; /* Adjust the height as needed */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+
