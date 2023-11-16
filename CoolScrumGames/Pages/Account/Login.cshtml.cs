@@ -10,11 +10,13 @@ namespace CoolScrumGames.Pages.Account
     public class LoginModel : PageModel
     {
         public Credential Login { get; set; }
-        public void OnGet()
+        public string Code = "12B45";
+        public static int Validated = 0;
+        public virtual void OnGet()
         {
         }
 
-        public IActionResult OnPost()
+        public virtual IActionResult OnPost()
         {
             string toEmail = Request.Form["toEmail"];
             var from = "coolscrumgames@gmail.com";
@@ -27,12 +29,12 @@ namespace CoolScrumGames.Pages.Account
                 EnableSsl = true,
             };
 
-     
+            string codeMessage = "Your code is: " + Code;
 
             var mailMessage = new MailMessage(from, toEmail)
             {
                 Subject = "Here is your temporary access code.",
-                Body = "Your code is: ",
+                Body = codeMessage,
                 IsBodyHtml = false,
             };
 
@@ -40,7 +42,7 @@ namespace CoolScrumGames.Pages.Account
 
 
 
-            return RedirectToPage("/account/login");
+            return RedirectToPage("/account/accesscode");
 
         }
     }
