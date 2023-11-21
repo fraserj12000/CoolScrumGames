@@ -1,13 +1,11 @@
 name: SeleniumTest
-on: [pull_request]
+on: workflow_dispatch
 jobs:
   push_to_registry:
     name: Push Docker image to Docker Hub
     runs-on: ubuntu-latest
     steps:
-      - uses: mktcode/consecutive-workflow-action@v1
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+    
       - name: Check out the repo
         uses: actions/checkout@v4
       

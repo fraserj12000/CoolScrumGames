@@ -100,24 +100,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bkcal\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Jake\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bkcal\\source\\repos\\CoolScrumGames\\CoolScrumGames\\CoolScrumGames.csproj",
+      "projectUniqueName": "C:\\Users\\Jake\\Documents\\CoolScrumGames_Fork\\CoolScrumGames\\CoolScrumGames.csproj",
       "projectName": "CoolScrumGames",
-      "projectPath": "C:\\Users\\bkcal\\source\\repos\\CoolScrumGames\\CoolScrumGames\\CoolScrumGames.csproj",
-      "packagesPath": "C:\\Users\\bkcal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bkcal\\source\\repos\\CoolScrumGames\\CoolScrumGames\\obj\\",
+      "projectPath": "C:\\Users\\Jake\\Documents\\CoolScrumGames_Fork\\CoolScrumGames\\CoolScrumGames.csproj",
+      "packagesPath": "C:\\Users\\Jake\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jake\\Documents\\CoolScrumGames_Fork\\CoolScrumGames\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\bkcal\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Jake\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -125,7 +120,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -168,7 +162,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
