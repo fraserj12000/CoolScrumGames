@@ -31,4 +31,26 @@ app.UseAuthorization();
 
 app.MapRazorPages();
 
+void ConfigureServices(IServiceCollection services)
+{
+    services.AddDistributedMemoryCache(); // Use a distributed cache for a production environment
+    services.AddSession(options =>
+    {
+        options.Cookie.Name = ".YourApp.Session";
+        options.IdleTimeout = TimeSpan.FromMinutes(30);
+        options.Cookie.HttpOnly = true;
+        options.Cookie.IsEssential = true;
+    });
+    // other service configurations...
+}
+
+void Configure(IApplicationBuilder app, Microsoft.AspNetCore.Hosting.IHostingEnvironment env)
+{
+    // other app configurations...
+
+    app.UseSession();
+
+    // other middleware...
+}
+
 app.Run();

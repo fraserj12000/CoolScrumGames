@@ -6,10 +6,14 @@ namespace CoolScrumGames.Pages.Account
     public class AccessCodeModel : LoginModel 
     {
         public static int Attempts = 4 - Validated;
+        public static Boolean authenticaded { get; set; }
         public override void OnGet()
         {
-            
+            authenticaded = false;
         }
+
+       
+       
 
         public override IActionResult OnPost()
         {
@@ -18,7 +22,8 @@ namespace CoolScrumGames.Pages.Account
 
             if (Code.Equals(code))
             {
-                return RedirectToPage("/Index");
+                authenticaded = true;
+                return RedirectToPage("/MainPage");
             }
             else if(Validated > 2)
             {

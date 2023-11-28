@@ -51,8 +51,5 @@ namespace CoolScrumGames.Pages.Account
     {
         [DataType(DataType.EmailAddress)]
         public string Email { get; set; }
-
-       
-
     }
 }

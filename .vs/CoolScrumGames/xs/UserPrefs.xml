@@ -1,18 +1,36 @@
 ﻿<Properties StartupConfiguration="{CC8373C4-091E-45F4-A28B-13A76DB235C8}|Default">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.CoolScrumGames PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CoolScrumGames/Pages/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CoolScrumGames/Pages/Index.cshtml.cs">
     <Files>
-      <File FileName="CoolScrumGames/Pages/Index.cshtml.cs" Line="1" Column="1" />
-      <File FileName="CoolScrumGames/Pages/Index.cshtml" Line="11" Column="1" />
+      <File FileName="CoolScrumGames/Pages/Index.cshtml.cs" Line="23" Column="41" />
+      <File FileName="CoolScrumGames/Pages/Index.cshtml" Line="14" Column="1" />
+      <File FileName="CoolScrumGames/Pages/Shared/_Layout.cshtml" Line="18" Column="50" />
+      <File FileName="CoolScrumGames/Pages/MainPage.cshtml" Line="144" Column="8" />
+      <File FileName="CoolScrumGames/Pages/MainPage.cshtml.cs" Line="1" Column="1" />
+      <File FileName="CoolScrumGames/Pages/Account/Login.cshtml" Line="46" Column="11" />
+      <File FileName="CoolScrumGames/Pages/Account/Login.cshtml.cs" Line="48" Column="6" />
+      <File FileName="CoolScrumGames/Pages/Account/AccessCode.cshtml" Line="1" Column="1" />
+      <File FileName="CoolScrumGames/Pages/Account/AccessCode.cshtml.cs" Line="12" Column="35" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CoolScrumGames" expanded="True">
-            <Node name="CoolScrumGames" expanded="True" />
+            <Node name="CoolScrumGames">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Account" expanded="True">
+                  <Node name="AccessCode.cshtml" expanded="True" />
+                  <Node name="Login.cshtml" expanded="True" />
+                </Node>
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" expanded="True" />
+                </Node>
+                <Node name="Index.cshtml" expanded="True">
+                  <Node name="Index.cshtml.cs" selected="True" />
+                </Node>
+                <Node name="MainPage.cshtml" expanded="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -21,4 +39,8 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.CoolScrumGames PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MultiItemStartupConfigurations />
 </Properties>
