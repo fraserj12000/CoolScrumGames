@@ -17,7 +17,7 @@
 </div>
 
 @{
-    if(AccessCodeModel.Validated > 0)
+    if(AccessCodeModel.Validated > 0) //Checks if there are remaining login attempts.
     {
         <p style="color: red">You have entered an invalid Access Code <br /> You have @AccessCodeModel.Attempts attempts left</p>
     }

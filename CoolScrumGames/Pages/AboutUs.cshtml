@@ -7,9 +7,10 @@
 
 
 <body style="background-color: #ffc72c;">
-   <!-- <div class="main-container">
-        <p> Hello :) How is it going?</p>
-    </div> -->
+    <br />
+    <br />
+    <br />
+    <br />
     <div id="main-container"></div>
 
     <script>
@@ -20,8 +21,8 @@
         xhttp.send(); 
         xhttp.onload = function() { //function that takes the data that was retrieved, takes the value from the key (it's in JSON format), and sets the text to the page.
           const response = this.responseText;
-          const data = JSON.parse(response);
-          document.getElementById("main-container").textContent = data.text;
+          const data = JSON.parse(response); //Parsed the response from the API call so that we can pull the "text" field out of the json.
+          document.getElementById("main-container").textContent = data.text; //This adds the text to the about page.
         }
 
         
