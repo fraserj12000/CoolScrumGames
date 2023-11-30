@@ -1,3 +1,5 @@
+#This script utilizes Selenium and Python's Unittest to test features on the website such as games, the carousel, login credentials, etc
+
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
@@ -8,6 +10,7 @@ import time
 
 class Test(unittest.TestCase):
     def setUp(self):
+        #Requires these options to run without a GUI, since it runs on GitHub actions through Linux.
         self.chrome_options = Options()
         self.options = [
             "--headless",
@@ -20,13 +23,15 @@ class Test(unittest.TestCase):
         ]
         for self.option in self.options:
           self.chrome_options.add_argument(self.option)
-        
+
+        #Launches Chrome to run the tests
         self.driver = webdriver.Chrome(options=self.chrome_options)
         
         self.driver.get("http://localhost:32825")
         
         self.driver.implicitly_wait(0.5)
 
+        #Login steps
         self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
         time.sleep(2)
         self.email = self.driver.find_element(By.XPATH, '//*[@id="toEmail"]')
@@ -42,6 +47,7 @@ class Test(unittest.TestCase):
         self.accesscode.send_keys("testSelenium")
         self.button.click()
 
+    #Tests Navbar to assert that it is working properly
     def test_checkNavbar(self):
         self.navitems = self.driver.find_elements(By.XPATH, "/html/body/header/nav/div/div/ul/li")
         assert self.navitems[0].text is not None
@@ -54,7 +60,8 @@ class Test(unittest.TestCase):
 
         self.navitems = self.driver.find_elements(By.XPATH, "/html/body/header/nav/div/div/ul/li")
         assert self.navitems[3].text is not None
-    
+
+    #Tests Asteroid game to see if it runs
     def test_checkJakesGame(self):
         self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight*0.25);")
         time.sleep(2)
@@ -68,6 +75,7 @@ class Test(unittest.TestCase):
         self.canvas = self.driver.find_elements(By.XPATH, '//*[@id="gameCanvas"]')
         assert self.canvas[0] is not None
 
+    #Tests Snake game to see if it runs
     def test_checkSnakeGame(self):
         self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight*0.25);")
         time.sleep(2)
@@ -81,6 +89,7 @@ class Test(unittest.TestCase):
         self.canvas = self.driver.find_elements(By.XPATH, '//*[@id="gameCanvas"]')
         assert self.canvas[0] is not None
 
+    #Tests login for form restriction
     def test_checklogin(self):
         self.logins = ["egglestonj@etsu", "egglestonj", "egglestonj@", "egglestonj@gmail.com", "egglestonj@outlook.com", "egglestonj-@outlook.com"]
         self.driver.get("http://localhost:32825")
@@ -102,7 +111,7 @@ class Test(unittest.TestCase):
         self.assertEqual(self.h4.text, "Enter an Access Code")
 
 
-
+    #Tears the testing environment down
     def tearDown(self):
         self.driver.quit()
 
