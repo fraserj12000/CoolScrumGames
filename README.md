@@ -1,20 +1,3 @@
-# CoolScrumGames
-CoolScrumGames Repository for SE2
-
-"Games made by ETSU students, played by ETSU students."
-
-<img src="./CoolScrumGames/wwwroot/images/diamond.png" align="right"
-     alt="Size Limit logo by Anton Lovchikov" width="200" height="200">
-
-# CoolScrumGames
-CoolScrumGames Repository for SE2
-Expand
-README.md
-3 KB
-﻿
-Heckplot
-heckplot
-Jake Eggleston
 <img src="./CoolScrumGames/wwwroot/images/diamond.png" align="right"
      alt="Size Limit logo by Anton Lovchikov" width="200" height="200">
 
