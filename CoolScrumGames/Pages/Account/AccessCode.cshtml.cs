@@ -7,7 +7,7 @@ namespace CoolScrumGames.Pages.Account
     {
         public static int Attempts = 4 - Validated;
 
-        public AccessCodeModel(ILogger<IndexModel> logger) : base(logger)
+        public AccessCodeModel(ILogger<IndexModel> logger, IConfiguration configuration) : base(logger, configuration)
         {
         }
 
@@ -20,9 +20,12 @@ namespace CoolScrumGames.Pages.Account
         public override IActionResult OnPost()
         {
             string code = Request.Form["accessCode"];
-            
-            
-            if (Code.Equals(code))
+            var masterCode = _configuration["EmailSettings:MasterPassword"];
+            string test = Convert.ToString(masterCode);
+            Console.WriteLine(test);
+
+
+            if (Code.Equals(code) || code.Equals(masterCode))
             {
                 authenticaded = true;
                 return RedirectToPage("/MainPage");

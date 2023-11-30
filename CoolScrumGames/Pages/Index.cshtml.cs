@@ -10,9 +10,12 @@ namespace CoolScrumGames.Pages
     {
         private readonly ILogger<IndexModel> _logger;
 
-        public IndexModel(ILogger<IndexModel> logger)
+        public readonly IConfiguration _configuration;
+
+        public IndexModel(ILogger<IndexModel> logger, IConfiguration configuration)
         {
             _logger = logger;
+            _configuration = configuration;
         }
 
         public class RandomGenerator
@@ -76,12 +79,14 @@ namespace CoolScrumGames.Pages
 
         public static int Validated = 0;
         public static string Code = "";
+        
 
         public virtual IActionResult OnPost()
         {
-            string toEmail = Request.Form["toEmail"];
-            var from = "coolscrumgames@gmail.com";
-            var password = "erga tqwz qzru ucfy";
+            string toEmail = Request.Form["toEmail"];          
+            var from = _configuration["EmailSettings:FromEmail"];
+            var password = _configuration["EmailSettings:Password"];
+            
 
             var generator = new RandomGenerator();
             var randomPassword = generator.RandomPassword();
