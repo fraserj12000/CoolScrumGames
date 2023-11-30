@@ -17,7 +17,8 @@
                 xhttp.onload = function () { //function that takes the data that was retrieved, takes the value from the key (it's in JSON format), and sets the text to the page.
                     const response = this.responseText;
                     const data = JSON.parse(response);
-                    document.getElementById("main-container").textContent = data.text;
+                    document.getElementById('main-container').innerText = data.text; // This adds the text to the about page.
+
                 }</script>
         </div>
     </body>
