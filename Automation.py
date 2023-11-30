@@ -110,6 +110,17 @@ class Test(unittest.TestCase):
         self.h4 = self.driver.find_element(By.XPATH, '/html/body/div[2]/div/section/form/h4')
         self.assertEqual(self.h4.text, "Enter an Access Code")
 
+    #def test_checkCarousel(self):
+        #self.rightarrow = self.driver.find_element(By.XPATH, '//*[@id="demo"]/div[2]/button[2]')
+        #self.leftarrow = self.driver.find_element(By.XPATH, '//*[@id="demo"]/div[2]/button[1]')
+        #self.playbutton = self.driver.find_element(By.XPATH, '//*[@id="demo"]/div[2]/div[2]/div/button')
+        #self.rightarrow.click()
+        #time.sleep(2)
+        #self.leftarrow.click()
+        #time.sleep(2)
+        #self.playbutton.click()
+        #time.sleep(2)
+    #Tests carousel functionality
 
     #Tears the testing environment down
     def tearDown(self):
