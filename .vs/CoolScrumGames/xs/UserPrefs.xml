@@ -1,12 +1,26 @@
 ﻿<Properties StartupConfiguration="{CC8373C4-091E-45F4-A28B-13A76DB235C8}|Default">
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.CoolScrumGames PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CoolScrumGames/Pages/Index.cshtml">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CoolScrumGames/Program.cs">
     <Files>
-      <File FileName="CoolScrumGames/Pages/Index.cshtml.cs" Line="1" Column="1" />
-      <File FileName="CoolScrumGames/Pages/Index.cshtml" Line="11" Column="1" />
+      <File FileName="CoolScrumGames/Pages/Index.cshtml.cs" Line="23" Column="41" />
+      <File FileName="CoolScrumGames/Pages/Index.cshtml" />
+      <File FileName="CoolScrumGames/Pages/Shared/_Layout.cshtml" Line="24" Column="76" />
+      <File FileName="CoolScrumGames/Pages/MainPage.cshtml" Line="5" Column="49" />
+      <File FileName="CoolScrumGames/Pages/Desktop.cshtml" Line="1" Column="1" />
+      <File FileName="CoolScrumGames/Pages/MainPage.cshtml.cs" Line="14" Column="13" />
+      <File FileName="CoolScrumGames/Pages/Account/AccessCode.cshtml" Line="1" Column="1" />
+      <File FileName="CoolScrumGames/Pages/Account/AccessCode.cshtml.cs" Line="10" Column="8" />
+      <File FileName="CoolScrumGames/Pages/Desktop.cshtml.cs" Line="1" Column="1" />
+      <File FileName="CoolScrumGames/Pages/AboutUs.cshtml.cs" Line="1" Column="1" />
+      <File FileName="CoolScrumGames/Pages/AboutUs.cshtml" Line="1" Column="1" />
+      <File FileName="CoolScrumGames/Pages/Privacy.cshtml" Line="1" Column="1" />
+      <File FileName="CoolScrumGames/Pages/Privacy.cshtml.cs" Line="1" Column="1" />
+      <File FileName="CoolScrumGames/Program.cs" Line="35" Column="66" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,7 +32,5 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.CoolScrumGames PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
 </Properties>

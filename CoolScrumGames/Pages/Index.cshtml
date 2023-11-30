@@ -5,145 +5,49 @@
 }
 
 
-
-<link href="/css/MainPageStyleSheet.css" rel="stylesheet" !important/>
-<body style="background-color: #f4f1e2;">
+<link href="/css/MainPageStyleSheet.css" rel="stylesheet" !important />
 
 
-<br/>
-<br/>
-<br/>
+<br />
+<br />
+<br />
 
-<div class="carousel-container">
-    <!-- Carousel -->
-    <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
-        <!-- Indicators/dots -->
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-        </div>
+<div class="banner" style="text-align: center">
+    <img src="/images/diamond.png" alt="BucStop" style="width: 300px; height: 300px" />
+    <div class="banner-text" style="text-align: center">
+    </div>
+</div>
 
-        <!-- The slideshow/carousel -->
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="/lib/Rocket.jpg" alt="Rocket" class="d-block w-100">
-                        <div class="carousel-caption">
-                            <h4>Jake's Game</h4>
-                            <p>Avoid the Asteroids! Faster!</p>
-                            <button class="rounded-button" onclick="window.location.href='Games/AsteroidGame'" target="_blank">
-                                Play Game
-                            </button>
-                        </div>
-                    </div>             
+<div class="text-center">
+    <h2 style="color: #00053e">Welcome to BucStop</h2>
+    <p style="color: #00053e">Play games made by ETSU students, for ETSU students!</p>
+</div>
 
-            <div class="carousel-item">
-                <img src="/lib/snake.jpg" alt="snake" class="d-block" style="width:100%">
-                    <div class="carousel-caption">
-                        <h4>Snake Game</h4>
-                        <p>Feed the Snake. Be the Snake.</p>
-                        <button class="rounded-button" onclick="window.location.href='Games/SnakeGame'" target="_blank">
-                            Play Game
-                        </button>
-                    </div>
-            </div>
-                <div class="carousel-item">
-                    <img src="/lib/snake.jpg" alt="snake" class="d-block" style="width:100%">
-                    <div class="carousel-caption">
-                        <h4>Snake Game</h4>
-                        <p>Feed the Snake. Be the Snake.</p>
-                        <button class="rounded-button" onclick="window.location.href='Games/SnakeGame'" target="_blank">
-                            Play Game
-                        </button>
-                    </div>
+<div class="row justify-content-center">
+
+
+    <div class="col-4">
+        <section>
+            <form method="post">
+                <hr />
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <h4 style="text-align:center; color: #00053e">Enter an ETSU Email</h4>
+                <div class="form-floating">
+                    <input type="email" name="toEmail" class="form-control" aria-required="true" id="toEmail" pattern=".*@@etsu\.edu$" required />
+                    <!--
+                        <label asp-for="Login.Email" class="form-label"></label>
+                    <span asp-validation-for="Login.Email" class="text-danger"></span>
+                    -->
+
+
+
+                </div>
+                <br />
+                <div>
+                    <button id="login-submit" type="submit" class="w-100 btn btn-lg btn-primary" style="background-color: #ffc72c; border-color: #ffc72c">Send Access Code</button>
                 </div>
 
-        <!-- Left and right controls/icons -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </button>
+            </form>
+        </section>
     </div>
-</div>
-</div>
-
-@* 
-The "main-container" is the ROW of containers for the games. The "game-container" is each individual game icon inside of the row, or the columns. To add more ROWS, just copy + paste
-the div class main container and all of its contents. To add more columns, just copy the individual game-container and its contents. *@
-<div class="main-container">
-
-    <div class="game-container"> 
-            <h3>             @* This link is for public domain game 2048. Will remove later when game is implemented in window.*@
-                <button class="rounded-button" onclick="window.location.href='Games/AsteroidGame'" target="_blank">
-                    <img src="/lib/Rocket.jpg" alt="Rocket" style="width:128px;height:128px;">
-                </button>
-            </h3><p>Jake's Game</p>
-    </div>
-
-     <div class="game-container">
-            <h3>
-                <button class="rounded-button" onclick="window.location.href='Games/SnakeGame'" target="_blank">
-                    <img src="/lib/snake.jpg" alt="Snake" style="width:128px;height:128px;">
-                </button>
-            </h3><p>Snake Game</p>
-     </div>
-
-     <div class="game-container">
-            <h3>
-                <button class="rounded-button" onclick="window.location.href='https://play2048.co/'" target="_blank">
-                    <img src="/lib/Rocket.jpg" alt="Rocket" style="width:128px;height:128px;">
-                </button>
-            </h3><p>Jake's Game</p>
-     </div>
-
-     <div class="game-container">
-            <h3>
-                <button class="rounded-button" onclick="window.location.href='https://play2048.co/'" target="_blank">
-                    <img src="/lib/Rocket.jpg" alt="Rocket" style="width:128px;height:128px;">
-                </button>
-            </h3><p>Jake's Game</p>
-     </div>
-</div>
-
-<div class="main-container">
-        <div class="game-container">
-            <h3>
-                <button class="rounded-button" onclick="window.location.href='https://play2048.co/'" target="_blank">
-                    <img src="/lib/Rocket.jpg" alt="Rocket" style="width:128px;height:128px;">
-                </button>
-            </h3><p>Jake's Game</p>
-        </div>
-
-        <div class="game-container">
-            <h3>
-                <button class="rounded-button" onclick="window.location.href='https://play2048.co/'" target="_blank">
-                    <img src="/lib/Rocket.jpg" alt="Rocket" style="width:128px;height:128px;">
-                </button>
-            </h3><p>Jake's Game</p>
-        </div>
-
-        <div class="game-container">
-            <h3>
-                <button class="rounded-button" onclick="window.location.href='https://play2048.co/'" target="_blank">
-                    <img src="/lib/Rocket.jpg" alt="Rocket" style="width:128px;height:128px;">
-                </button>
-            </h3><p>Jake's Game</p>
-        </div>
-
-        <div class="game-container">
-            <h3>
-                <button class="rounded-button" onclick="window.location.href='https://play2048.co/'" target="_blank">
-                    <img src="/lib/Rocket.jpg" alt="Rocket" style="width:128px;height:128px;">
-                </button>
-            </h3><p>Jake's Game</p>
-        </div>
- </div>
-
-
-
-</body>
-
-
