@@ -31,6 +31,9 @@ app.UseAuthorization();
 
 app.MapRazorPages();
 
+// ConfigureServices and Configure are still not being use
+// the purpose of those will be in the implementations of cookies
+
 void ConfigureServices(IServiceCollection services)
 {
     services.AddDistributedMemoryCache(); // Use a distributed cache for a production environment

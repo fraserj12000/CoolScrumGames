@@ -2,12 +2,69 @@
 @model PrivacyModel
 @{
     ViewData["Title"] = "Privacy Policy";
+
 }
 
-<body style="background-color: #ffc72c;">
-    <div class="main-container">
-        <h1>@ViewData["Title"]</h1>
 
+@if (Pages.Account.AccessCodeModel.authenticaded)
+{
+    <body style="background-color: #ffc72c;">
+        <div class="main-container">
+            <h1>@ViewData["Title"]</h1>
+
+
+        </div>
         <p>Use this page to detail your site's privacy policy.</p>
-    </div>
-</body>
+    </body>
+}
+else
+{
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login Required</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+            }
+
+            .message-container {
+                text-align: center;
+                padding: 20px;
+                border: 1px solid #ccc;
+                background-color: #fff;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+
+            h1 {
+                color: #333;
+            }
+
+            a {
+                color: #007BFF;
+                text-decoration: none;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="message-container">
+            <h1>Login Required</h1>
+            <p>You are not logged in. Please <a href="/Index">return to the login page</a>.</p>
+        </div>
+
+    </body>
+</html>
+}
+

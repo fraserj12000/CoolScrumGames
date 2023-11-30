@@ -15,7 +15,9 @@
 <body style="background-color: #f4f1e2;">
 
 
-    @if (@Pages.Account.AccessCodeModel.authenticaded) { }
+    <!--
+        Hide navbar if user is not authenticated
+    -->
     @if (@Pages.Account.AccessCodeModel.authenticaded)
     {
         <header>
