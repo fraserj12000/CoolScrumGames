@@ -18,19 +18,21 @@ namespace CoolScrumGames.Pages.Account
 
         public virtual IActionResult OnPost()
         {
+            //email account source
             string toEmail = Request.Form["toEmail"];
             var from = "coolscrumgames@gmail.com";
             var password = "erga tqwz qzru ucfy";
 
+            //sets up email client
             var Client = new SmtpClient("smtp.gmail.com")
             {
                 Port = 587,
                 Credentials = new NetworkCredential(from, password),
                 EnableSsl = true,
             };
-
+            
             string codeMessage = "Your code is: " + Code;
-
+            //sets up email contents
             var mailMessage = new MailMessage(from, toEmail)
             {
                 Subject = "Here is your temporary access code.",
@@ -51,8 +53,5 @@ namespace CoolScrumGames.Pages.Account
     {
         [DataType(DataType.EmailAddress)]
         public string Email { get; set; }
-
-       
-
     }
 }

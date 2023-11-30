@@ -1,26 +1,76 @@
 ﻿@page
 @model CoolScrumGames.Pages.AboutUsModel
-@{
+@{}
+
+<!--
+       Hide page if user is not authenticated
+-->
+@if (Pages.Account.AccessCodeModel.authenticaded)
+{
+    <body style="background-color: #ffc72c;">
+
+        <div id="main-container">
+            <script>const xhttp = new XMLHttpRequest(); //Creates an object that will hold the HTML request.
+
+                xhttp.open("GET", "https://localhost:7042/AboutUs"); // THis is what retrieves the data from the API.
+                xhttp.send();
+                xhttp.onload = function () { //function that takes the data that was retrieved, takes the value from the key (it's in JSON format), and sets the text to the page.
+                    const response = this.responseText;
+                    const data = JSON.parse(response);
+                    document.getElementById('main-container').innerText = data.text; // This adds the text to the about page.
+
+                }</script>
+        </div>
+    </body>
+
 }
+else
+{
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login Required</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+            }
 
-<body style="background-color: #ffc72c;">
-   <!-- <div class="main-container">
-        <p> Hello :) How is it going?</p>
-    </div> -->
-    <div id="main-container" class="main-container"></div>
+            .message-container {
+                text-align: center;
+                padding: 20px;
+                border: 1px solid #ccc;
+                background-color: #fff;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
 
-    <script>
+            h1 {
+                color: #333;
+            }
 
-        const xhttp = new XMLHttpRequest(); //Creates an object that will hold the HTML request.
+            a {
+                color: #007BFF;
+                text-decoration: none;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
 
-        xhttp.open("GET", "http://3.216.98.181:7041/AboutUs"); // THis is what retrieves the data from the API.
-        xhttp.send(); 
-        xhttp.onload = function() { //function that takes the data that was retrieved, takes the value from the key (it's in JSON format), and sets the text to the page.
-          const response = this.responseText;
-          const data = JSON.parse(response);
-          document.getElementById("main-container").textContent = data.text;
-        }
-        
+        <div class="message-container">
+            <h1>Login Required</h1>
+            <p>You are not logged in. Please <a href="/Index">return to the login page</a>.</p>
+        </div>
 
-    </script>
-</body>
+    </body>
+</html>
+}
